@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.header-container {
+    /* border: 1px solid black; */
+    padding: 10px 0;
+    display: flex;
+}
+.header {
+    /* border: 1px solid black; */
+    margin: 0px 150px;
+    display: flex;
+    flex-wrap: wrap;
+
+    font-size: 20px;
+}
+.logo {
+    margin: 0px 450px 0px 0px;
+    font-weight: bold;
+}
+.links {
+    /* border: 1px solid black; */
+    width: 1000px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
