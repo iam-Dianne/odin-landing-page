@@ -3,7 +3,7 @@
     padding: 0;;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
-    color: #0e0d0d;
+    color: #1d1b1b;
 }
 
 /* HEADER */
@@ -22,7 +22,7 @@
     font-size: 20px;
 }
 .logo {
-    margin: 0px 450px 0px 0px;
+    margin: 0px 500px 0px 0px;
     font-weight: bold;
 }
 .links {
@@ -72,3 +72,31 @@
 .welcome-container {
     background-color: #f7e13b;
 }
+
+/* CHARACTERS */
+
+.characters-header {
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+}
+.characters-container {
+    border: 1px solid black;
+    padding: 50px 0px 40px 0px;
+    
+}
+.characters {
+    /* border: 1px solid black; */
+    margin: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.char-text {
+    width:200px;
+    margin: 5px 0px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* QUOTES SECTION  */
