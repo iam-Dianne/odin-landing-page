@@ -60,9 +60,9 @@
     margin-bottom: 50px;
     font-size: 20px;
 }
-.button {
+.signup-button {
     /* border: 1px solid black; */
-    background-color: #fb5b58;
+    background-color: #fb5b68;
     font-size: 18px;
     display: inline;
     padding: 12px 20px;
@@ -102,17 +102,18 @@
 /* QUOTES SECTION  */
 
 .quotes-container {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-color: #fb5b68;
+    padding: 30px 0px;
 
 }
 .quotes {
     /* border: 1px solid black; */
-    margin: 40px 150px;
+    margin: 30px 150px;
     display: flex;
     justify-content: space-between;
-    align-content: space-between;
     flex-wrap: wrap;
+    
 }
 .quote {
     /* border: 1px solid black; */
@@ -120,8 +121,42 @@
     height: 150px;
     padding: 30px;
     background-color: #ffffff3b;
+    margin-top: 20px;
 }
 .quote > p {
     font-size: 20px;
+    text-align: center;
+}
+
+/* CONTACT SECTION */
+
+.contact-container {
+    /* border: 1px solid black; */
+    padding: 50px 0px;
+}
+.contact {
+    /* border: 1px solid black; */
+    background-color: #f7e13b;
+    margin: 20px 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-text {
+    margin-right: 70px;
+}
+.contact-button {
+    border: 2px solid #1d1b1b;
+    padding: 10px 20px;
+}
+
+/* FOOTER */
+.footer-container {
+    background-color: #fb5b68;
+    /* border: 1px solid black; */
+    padding: 20px 0px;
+}
+.footer {
     text-align: center;
 }
